@@ -1,0 +1,214 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5565344396369943932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4829511934317107658}
+  - component: {fileID: 5279660291020279065}
+  - component: {fileID: 3487965096748163561}
+  - component: {fileID: 5565344396369943923}
+  - component: {fileID: 5565344396369943922}
+  - component: {fileID: 5565344396369943933}
+  m_Layer: 0
+  m_Name: Missile Facing Left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4829511934317107658
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5565344396369943932}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.4080224, y: 0.4080224, z: 0.4080224}
+  m_Children:
+  - {fileID: 684608585480513840}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!33 &5279660291020279065
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5565344396369943932}
+  m_Mesh: {fileID: -2432090755550338912, guid: b487b82a2a9b11749a2b5bd97a28bd5f, type: 3}
+--- !u!23 &3487965096748163561
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5565344396369943932}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -8469494145858465668, guid: b487b82a2a9b11749a2b5bd97a28bd5f, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &5565344396369943923
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5565344396369943932}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.600001, y: 2.0000002, z: 2.0000002}
+  m_Center: {x: -0.10000004, y: 1.9000003, z: 0.20000005}
+--- !u!54 &5565344396369943922
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5565344396369943932}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &5565344396369943933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5565344396369943932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c13a075f6a79e43a343a482cde19ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xSpeed: -250
+  ySpeed: 0
+  ySpawningOffset: 1
+  xSpawnginOffset: 1
+  missileExplosionVFX: {fileID: 2267342918028389218, guid: da94d58930ed1cf46b48bd53fa733793,
+    type: 3}
+  missileExplosionSFX: {fileID: 8300000, guid: 8b3ff9f1a34582a49a4ef3e1e6ab1250, type: 3}
+  maxDistanceToRocket: 25
+--- !u!1001 &2071783419429975890
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4829511934317107658}
+    m_Modifications:
+    - target: {fileID: 1531298548108582498, guid: ecefcf6d3e7c07b45a5f0d6941fad837,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531298548108582498, guid: ecefcf6d3e7c07b45a5f0d6941fad837,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531298548108582498, guid: ecefcf6d3e7c07b45a5f0d6941fad837,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.194
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531298548108582498, guid: ecefcf6d3e7c07b45a5f0d6941fad837,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531298548108582498, guid: ecefcf6d3e7c07b45a5f0d6941fad837,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531298548108582498, guid: ecefcf6d3e7c07b45a5f0d6941fad837,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531298548108582498, guid: ecefcf6d3e7c07b45a5f0d6941fad837,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531298548108582498, guid: ecefcf6d3e7c07b45a5f0d6941fad837,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531298548108582498, guid: ecefcf6d3e7c07b45a5f0d6941fad837,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531298548108582498, guid: ecefcf6d3e7c07b45a5f0d6941fad837,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531298548108582498, guid: ecefcf6d3e7c07b45a5f0d6941fad837,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6874415620492452198, guid: ecefcf6d3e7c07b45a5f0d6941fad837,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 9117029451687133041, guid: ecefcf6d3e7c07b45a5f0d6941fad837,
+        type: 3}
+      propertyPath: m_Name
+      value: Missile Thrust Particles
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ecefcf6d3e7c07b45a5f0d6941fad837, type: 3}
+--- !u!4 &684608585480513840 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1531298548108582498, guid: ecefcf6d3e7c07b45a5f0d6941fad837,
+    type: 3}
+  m_PrefabInstance: {fileID: 2071783419429975890}
+  m_PrefabAsset: {fileID: 0}

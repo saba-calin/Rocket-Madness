@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4251636419257808452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4251636419257808455}
+  - component: {fileID: 4251636419257808454}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4251636419257808455
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4251636419257808452}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 960, y: 540}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4251636419257808454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4251636419257808452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ea5802c09adf174ba1b83cb9fc8fc63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startEndImage: {fileID: 0}
+  winImage: {fileID: 0}
+  loseImage: {fileID: 0}
+  shopImage: {fileID: 0}
+  shopButton: {fileID: 0}
+  coinsImage: {fileID: 0}
+  getCoinsButton: {fileID: 0}
+  levelEndedCoins: {fileID: 0}
+  settingsImage: {fileID: 0}
+  notEnoughCoinsImage: {fileID: 0}
+  showingAdImage: {fileID: 0}
+  GDPRConsentImage: {fileID: 0}
+  isAllowedToPlayMissileExplosionSound: 1
+  buttonsSFX: {fileID: 8300000, guid: 9c1e24f837e733d4ba5a2f7ce7a8521d, type: 3}

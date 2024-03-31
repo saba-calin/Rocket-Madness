@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 52e2fb46f2a546649bcaf1f162c93afa
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - deathParticleSystem: {instanceID: 0}
+  - winParticleSystem: {instanceID: 0}
+  - deathSFX: {instanceID: 0}
+  - winSFX: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
